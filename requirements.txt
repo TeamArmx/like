@@ -14,5 +14,4 @@ motor
 psutil
 future
 wget
-speedtest-cli
 pymongo
