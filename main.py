@@ -15,7 +15,7 @@ comand = "/.,*+"
 bot = bool(os.environ.get('bot', True))
 token = os.environ.get("token", None)
 
-bot = Bot(token="5929981615:AAELjumCNMn2E-8-7lyz8WaG1eAH2CUMWQo", parse_mode=types.ParseMode.HTML)
+bot = Bot(token="6055899490:AAEfy1wViQ54O62uJL6tmVfOK8co88GQjvE", parse_mode=types.ParseMode.HTML)
 iniciar = Dispatcher(bot)
 
 
