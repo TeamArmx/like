@@ -24,7 +24,7 @@ comand = "/.,*"
 bot = bool(os.environ.get('bot', True))
 token = os.environ.get("token", None)
 
-bot = Bot(token="5902161959:AAGXf6w5daxy7WU--Cmta3Y1XCmY65DCpHI", parse_mode=types.ParseMode.HTML)
+bot = Bot(token="6055899490:AAEfy1wViQ54O62uJL6tmVfOK8co88GQjvE", parse_mode=types.ParseMode.HTML)
 iniciar = Dispatcher(bot)
 
 button1 = InlineKeyboardButton(text="👤Creador👤", callback_data="creador")
