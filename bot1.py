@@ -47,7 +47,7 @@ comand = "/.,+*"
 bot = bool(os.environ.get('bot', True))
 token = os.environ.get("token", None)
 
-bot = Bot(token="6188249734:AAH0h51am6PcCseOo1OgfFvpo0BKj8LTJks", parse_mode=types.ParseMode.HTML)
+bot = Bot(token="6055899490:AAEfy1wViQ54O62uJL6tmVfOK8co88GQjvE", parse_mode=types.ParseMode.HTML)
 iniciar = Dispatcher(bot)
 
 button1 = InlineKeyboardButton(text="𝗢𝘄𝗻𝗲𝗿", callback_data="creador")
@@ -55,7 +55,7 @@ button2 = InlineKeyboardButton(text="𝗚𝗮𝘁𝗲𝘀", callback_data="gate"
 button3 = InlineKeyboardButton(text="𝐌𝐢 𝐂𝐚𝐧𝐚𝐥", callback_data="randomvalue_of10")
 keyboard_inline = InlineKeyboardMarkup().add(button1, button2, button3)
 
-admins = [5629056050, 5470919796, 879739960, 1298358478, 5730973676, 1844153046, 5797855579, 5578230138, 1790648615, 5119012216, 1967433942, 2136131485, 5983825702, 5019536742]
+admins = [5646865373, 5646865373]
 
 
 
